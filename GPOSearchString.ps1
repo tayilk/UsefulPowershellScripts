@@ -8,7 +8,7 @@ foreach ($gpo in $GPos) {
         write-host "Match Found: $($gpo.DisplayName)"
     }
     else{
-        Write-Host "No Match in: $($gpo.DisplayName)"
+        Write-Host "No Match: $($gpo.DisplayName)"
     }
 
 }
